@@ -2,11 +2,10 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="layout" content="main"/>
-	<title>Simple GSP page</title>
+	<title>View and Edit Configuration</title>
 	<g:javascript library="jquery"/>
 	<g:setProvider library="jquery"/>
-	<link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}">
+	<link rel="stylesheet" href="${resource(dir: 'css', file: 'config-main.css')}">
 	<link rel="stylesheet" href="${resource(dir: 'css', file: 'jqueryFileTree.css')}">
 	<script src="${resource(dir: 'js', file: 'jqueryFileTree.js')}" type="text/javascript"></script>
 	<script type="text/javascript">
@@ -49,9 +48,12 @@
 	<div class="dialog rightpanel">
 		<g:uploadForm controller="configEditor" action="uploadConfiguration">
 			<span>
-				Configuration File : <input type="file" name="configFile" size="20"/><g:submitButton name="update" value="Upload"/>
+				Configuration File : <input type="file" name="configFile" size="20"/>
+				<g:submitButton name="update" value="Upload and Merge"/>
 			</span>
 		</g:uploadForm>
+		<br/>
+		<br/>
 		<g:form controller="configEditor" action="updateConfiguration">
 			<table>
 				<tbody>

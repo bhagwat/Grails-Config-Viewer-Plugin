@@ -6,7 +6,7 @@
 	<title>Simple GSP page</title>
 	<g:javascript library="jquery"/>
 	<g:setProvider library="jquery"/>
-	<link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}">
+	<link rel="stylesheet" href="${resource(dir: 'css', file: 'config-main.css')}">
 </head>
 <body>
 <div class="body" style="float:none;">
