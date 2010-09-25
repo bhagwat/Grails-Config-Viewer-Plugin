@@ -11,11 +11,12 @@ class ConfigEditorGrailsPlugin {
     ]
 
     // TODO Fill in these fields
-    def author = "Your name"
-    def authorEmail = ""
-    def title = "Plugin summary/headline"
+    def author = "Bhagwat Kumar"
+    def authorEmail = "bhagwat@intelligrape.com"
+    def title = "Config Viewer"
     def description = '''\\
-Brief description of the plugin.
+Represents the grails application configuration as Treeviw. The application provides two urls to view the configuration tree in two different views.
+The index view provides two additional feature viz : upload and merge external configuration file in running application and inline editing of a config property.
 '''
 
     // URL to the plugin's documentation

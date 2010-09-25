@@ -3,3 +3,11 @@ configEditor.iml
 configEditor.iws
 configEditor.ipr
 target
+.classpath
+.project
+.settings/
+Grails-Config-Viewer-Plugin-grailsPlugins.iml
+Grails-Config-Viewer-Plugin.iml
+Grails-Config-Viewer-Plugin.ipr
+Grails-Config-Viewer-Plugin.iws
+
