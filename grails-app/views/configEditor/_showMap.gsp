@@ -1,4 +1,4 @@
-<ul>
+<ul id="config-tree">
 	<g:each in="${map}" var="es">
 		<g:set var="value" value="${es.value}"/>
 		<li>
